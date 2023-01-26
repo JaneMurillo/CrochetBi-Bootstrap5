@@ -3,7 +3,7 @@ In this repository you will find the development of an HTML page implemented usi
 
 ## Preview
 
-[![CrochetBi Preview]([https://startbootstrap.github.io/src/assets/img/readme-image.jpg/](https://github.com/JaneMurillo/CrochetBi-Bootstrap5/blob/main/src/assets/img/readme-image.jpg))
+![CrochetBi Preview]([https://startbootstrap.github.io/src/assets/img/readme-image.jpg/](https://github.com/JaneMurillo/CrochetBi-Bootstrap5/blob/main/src/assets/img/readme-image.jpg))
 
 
 ## Download and start
