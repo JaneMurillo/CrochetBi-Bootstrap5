@@ -1,0 +1,206 @@
+doctype html
+html(lang='es')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title CrochetBi - Regalos Ideales
+
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+            .container.px-4.px-lg-5
+                a.navbar-brand(href='#page-top') CROCHETBI
+                button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.ms-auto
+                        li.nav-item
+                            a.nav-link(href='#about') Nosotros
+                        li.nav-item
+                            a.nav-link(href='#projects') Amigurumis
+                        li.nav-item
+                            a.nav-link(href='#signup') Contacto
+
+        // Masthead
+        header.masthead
+            .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
+                .d-flex.justify-content-center
+                    .text-center
+                        h1.mx-auto.my-0.text-uppercase CrochetBi
+                        h2.text-white-50.mx-auto.mt-2.mb-5 Una página divertida, innovadora para encontrar tus diseños favoritos!
+                        a.btn.btn-primary(href='#about') Empieza aquí
+
+        // About
+        section#about.about-section.text-center
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-lg-8
+                        h2.text-white.mb-4 Encuentra el regalo perfecto en CrochetBi
+                        p.text-white-50
+                            | CrochetBi es una página especial para encontrar tus patrones favoritos para regalar. <br> 
+                            | Busca y diviertete con los diseños especiales que tenemos para ti, tenemos una gran variedad de diseños para todo tipo de eventos.
+                img.img-fluid(src='assets/img/tejido-de-punto-aguja.png', alt='...')
+
+        // Projects
+        section#projects.projects-section.bg-light
+            .container.px-4.px-lg-5
+                // Featured Project Row
+                .row.gx-0.mb-4.mb-lg-5.align-items-center
+                    .col-xl-8.col-lg-7
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/duck-crochet.jpeg', alt='...')
+                    .col-xl-4.col-lg-5
+                        .featured-text.text-center.text-lg-left
+                            h4 ¿No sabes qué regalar? <br> Busca en CrochetBi!
+                            p.text-black-50.mb-0
+                                | Obten una amplia vista de todos los patrones disponibles para regalar y encuentra el ideal! <br> Seguro te gustará más de uno.
+                // Project One Row
+                .row.gx-0.mb-5.mb-lg-0.justify-content-center
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/plant-crochet.jpeg', alt='...')
+                    .col-lg-6
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                    h4.text-white Suculenta 
+                                    p.mb-0.text-white-50
+                                        | Esta divertida maceta de ganchillo es ideal para escritorio!  Perfecta para regalar tus amigos, familiares, como decoración y muy vintage.
+                                    hr.d-none.d-lg-block.mb-0.ms-0
+                // Project Two Row
+                .row.gx-0.justify-content-center
+                    .col-lg-6
+                        img.img-fluid(src='assets/img/yellow-duck-crochet.jpeg', alt='...')
+                    .col-lg-6.order-lg-first
+                        .bg-black.text-center.h-100.project
+                            .d-flex.h-100
+                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                    h4.text-white ¿Buscas regalos creativos?
+                                    p.mb-0.text-white-50
+                                        | Te presentamos la sección de los amigurumis más divertidos del momento. <br> Esta sección seguro te sacará una sonrisa!
+                                    hr.d-none.d-lg-block.mb-0.me-0
+
+        // Signup
+        section#signup.signup-section
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5
+                    .col-md-10.col-lg-8.mx-auto.text-center
+                        i.far.fa-paper-plane.fa-2x.mb-2.text-white
+                        h2.text-white.mb-5 Subscribete para ver los nuevos patrones!
+
+                        // * * * * * * * * * * * * * * *
+                        // * * SB Forms Contact Form * *
+                        // * * * * * * * * * * * * * * *
+
+                        // This form is pre-integrated with SB Forms.
+                        // To make this form functional, sign up at
+                        // https://startbootstrap.com/solution/contact-forms
+                        // to get an API token!
+                        
+                        form#contactForm.form-signup(data-sb-form-api-token='API_TOKEN')
+
+                            // Email address input
+
+                            .row.input-group-newsletter
+                                .col
+                                    input#emailAddress.form-control(
+                                        type='email',
+                                        placeholder='Introduce tu correo electrónico...',
+                                        aria-label='Introduce tu correo electrónico...',
+                                        data-sb-validations='required,email'
+                                    )
+                                .col-auto
+                                    button#submitButton.btn.btn-primary.disabled(type='submit') Notificarme!
+                            .invalid-feedback.mt-2(data-sb-feedback='emailAddress:required')
+                                | Introduce tu email.
+                            .invalid-feedback.mt-2(data-sb-feedback='emailAddress:email')
+                                | Email no valido.
+
+                            // Submit success message
+                            //
+                            // This is what your users will see when the form
+                            // has successfully submitted
+
+                            #submitSuccessMessage.d-none
+                                .text-center.mb-3.mt-2.text-white
+                                    .fw-bolder Formulario enviado correctamente!
+                                    | Para activar este formulario, regístrese en
+                                    br
+                                    a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+
+                            // Submit error message
+                            //
+                            // This is what your users will see when there is
+                            // an error submitting the form
+
+                            #submitErrorMessage.d-none
+                                .text-center.text-danger.mb-3.mt-2 Error al enviar el mensaje!
+
+        // Contact
+        section.contact-section.bg-black
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-map-marked-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Domicilio
+                                hr.my-4.mx-auto
+                                .small.text-black-50 4429 Isla Tortuga, Guadalajara Jal
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-envelope.text-primary.mb-2
+                                h4.text-uppercase.m-0 Email
+                                hr.my-4.mx-auto
+                                .small.text-black-50
+                                    a(href='#!') crochetbi@gmail.com
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fas.fa-mobile-alt.text-primary.mb-2
+                                h4.text-uppercase.m-0 Telefono
+                                hr.my-4.mx-auto
+                                .small.text-black-50 + (52) 3338231733
+                .social.d-flex.justify-content-center
+                    a.mx-2(href='#!')
+                        i.fab.fa-twitter
+                    a.mx-2(href='#!')
+                        i.fab.fa-facebook-f
+                    a.mx-2(href='#!')
+                        i.fab.fa-github
+
+        // Footer
+        footer.footer.bg-black.small.text-center.text-white-50
+            .container.px-4.px-lg-5
+                | Copyright &copy; CrochetBi 2023
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
+
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        // * *                               SB Forms JS                               * *
+        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
